@@ -3,7 +3,10 @@ var React = require('react');
 var Examples = React.createClass({
   render: function() {
     return (
-      <h2>Examples Component</h2>
+      <div>
+        <h2>Examples</h2>
+        <p>Welcome to the Examples page!</p>
+      </div>
     );
   }
 });
