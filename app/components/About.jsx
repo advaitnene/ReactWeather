@@ -4,8 +4,11 @@ var About = React.createClass({
   render: function() {
     return (
       <div>
-        <h2>About</h2>
-        <p>Welcome to the About page!</p>
+        <h1 className="text-center">About</h1>
+        <p>
+          This is an application to get weather details from any location.
+          I have developed this application using React framework and openweathermap API.
+        </p>
     </div>
     );
   }
